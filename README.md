@@ -1,4 +1,4 @@
-# Confera — 7-Agent Conference Intelligence
+# Confera — Multi Agent Conference Intelligence
 
 An AI-driven platform that automates the full lifecycle of organizing multi-day conferences and events. Seven autonomous agents coordinate to handle sponsor outreach, speaker curation, venue selection, ticketing, pricing, GTM, and live operations.
 
@@ -65,8 +65,8 @@ Detailed setup steps are available in API_KEYS.md.
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/genosis18m/AutoConf-MultiAgent.git
-cd AutoConf-MultiAgent
+git clone https://github.com/sakshamojha56/Confera.git
+cd Confera
 ```
 
 ---
@@ -142,7 +142,7 @@ Access dashboard at: [http://localhost:5173](http://localhost:5173)
 ## Project Structure
 
 ```
-AutoConf-MultiAgent/
+Confera/
 ├── backend/
 │   ├── agents/
 │   │   ├── orchestrator.py
@@ -218,8 +218,8 @@ Open: [http://localhost:5173](http://localhost:5173)
 2. Clone your fork
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AutoConf-MultiAgent.git
-cd AutoConf-MultiAgent
+git clone https://github.com/sakshamojha56/Confera.git
+cd Confera
 ```
 
 3. Create branch from base_version
