@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+backend/.env
+.env
+
+# Logs
+*.log
+backend/*.log
+
+# Node
+node_modules/
+dist/
+.vite/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+.codex
+
+# 
+RENDER_DEPLOYMENT_GUIDE.md

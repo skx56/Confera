@@ -1,0 +1,9 @@
+[build]
+buildCommand = "python -m pip install -r requirements.txt"
+
+[deploy]
+startCommand = "bash start.sh"
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
