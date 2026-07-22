@@ -27,6 +27,22 @@ Confera provides an integrated planning workspace for complex events. It decompo
 
 The backend uses FastAPI with domain modules, shared schemas, routes, tools, and services. The frontend uses React, TypeScript, routing, charting, state management, and Tailwind styling.
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+  Planner["Conference Team"] --> UI["React Planning Workspace"]
+  UI --> API["FastAPI Backend"]
+  API --> Orchestrator["Conference Orchestrator"]
+  Orchestrator --> Venue["Venue Planning"]
+  Orchestrator --> Speakers["Speaker Planning"]
+  Orchestrator --> Sponsors["Sponsor Strategy"]
+  Orchestrator --> Ticketing["Ticketing and Pricing"]
+  Orchestrator --> Ops["Operations Planning"]
+  API --> Services["Supabase, ChromaDB, Search, Reports"]
+  Services --> UI
+```
+
 ## Technology Stack
 
 - FastAPI and Pydantic for backend services.
